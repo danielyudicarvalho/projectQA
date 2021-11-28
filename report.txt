@@ -1,0 +1,30 @@
+./app.py:1:1: E265 block comment should start with '# '
+./app.py:3:1: E265 block comment should start with '# '
+./app.py:9:1: F403 'from forms import *' used; unable to detect undefined names
+./app.py:10:1: F401 'os' imported but unused
+./app.py:12:1: E265 block comment should start with '# '
+./app.py:14:1: E265 block comment should start with '# '
+./app.py:18:1: E265 block comment should start with '# '
+./app.py:39:1: E265 block comment should start with '# '
+./app.py:41:1: E265 block comment should start with '# '
+./app.py:56:12: F405 'LoginForm' may be undefined, or defined from star imports: forms
+./app.py:62:12: F405 'RegisterForm' may be undefined, or defined from star imports: forms
+./app.py:68:12: F405 'ForgotForm' may be undefined, or defined from star imports: forms
+./app.py:76:5: E265 block comment should start with '# '
+./app.py:84:1: E305 expected 2 blank lines after class or function definition, found 1
+./app.py:87:80: E501 line too long (88 > 79 characters)
+./app.py:94:1: E265 block comment should start with '# '
+./app.py:96:1: E265 block comment should start with '# '
+./fabfile.py:17:15: F821 undefined name 'raw_input'
+./fabfile.py:43:80: E501 line too long (82 > 79 characters)
+./forms.py:21:9: E128 continuation line under-indented for visual indent
+./_updated/shell.py:3:1: F403 'from flask import *' used; unable to detect undefined names
+./_updated/shell.py:3:1: F401 'flask.*' imported but unused
+./_updated/shell.py:4:1: F403 'from app import *' used; unable to detect undefined names
+./_updated/shell.py:4:1: F401 'app.*' imported but unused
+./_updated/app/forms.py:19:9: E128 continuation line under-indented for visual indent
+./_updated/app/controllers/pages.py:2:1: F403 'from app.forms import *' used; unable to detect undefined names
+./_updated/app/controllers/pages.py:8:1: E266 too many leading '#' for block comment
+./_updated/app/controllers/pages.py:24:12: F405 'LoginForm' may be undefined, or defined from star imports: app.forms
+./_updated/app/controllers/pages.py:30:12: F405 'RegisterForm' may be undefined, or defined from star imports: app.forms
+./_updated/app/controllers/pages.py:36:12: F405 'ForgotForm' may be undefined, or defined from star imports: app.forms
